@@ -4,7 +4,9 @@
   "description": "The legendary terraced gardens of Babylon as ancient writers described them: tiers of trees and flowers above the Euphrates, watered by hidden machinery. Shamabubu the gardener tells their story, mystery included.",
   "spawns": {
     "default": "By the river, facing the terraced gardens",
-    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world",
+    "from_great_pyramid": "Arriving from Great Pyramid, in front of the portal plaza",
+    "to_temple_of_artemis": "In front of the portal to Temple of Artemis"
   },
   "portals": [
     {
@@ -13,6 +15,13 @@
       "href": "https://zlisto.github.io/hub_world/",
       "spawn": "by_hanging_gardens",
       "where": "A glowing pink doorway near where you arrive"
+    },
+    {
+      "id": "to_temple_of_artemis",
+      "label": "Temple of Artemis",
+      "href": "https://zlisto.github.io/temple-of-artemis-at-ephesus/",
+      "spawn": "from_hanging_gardens",
+      "where": "A tour doorway beside the portal to Metaverse Square (next stop · tour)"
     }
   ]
 }

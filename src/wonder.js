@@ -70,7 +70,7 @@ The real ruins of Babylon, including the foundations of Nebuchadnezzar's palace,
   },
 
   env: { sky: '#b4d2e8', fog: '#e6d9bd', fogNear: 120, fogFar: 480, ground: '#c4a372', hemiSky: '#fff3dc', hemiGround: '#7d8a4e', sun: [50, 80, 40], sunIntensity: 1.8 },
-  speed: { walk: 6, run: 11 },
+  speed: { walk: 12, run: 20 },
   bound: 130,
   spawn: { x: 0, z: 45, yaw: 0 },
   portal: { x: 8, z: 52, rot: Math.PI, href: HUB, spawn: 'by_hanging_gardens' },

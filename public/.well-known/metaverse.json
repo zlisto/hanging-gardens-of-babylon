@@ -1,0 +1,18 @@
+{
+  "protocol": "mvw/0.1",
+  "name": "Hanging Gardens of Babylon",
+  "description": "The legendary terraced gardens of Babylon as ancient writers described them: tiers of trees and flowers above the Euphrates, watered by hidden machinery. Shamabubu the gardener tells their story, mystery included.",
+  "spawns": {
+    "default": "By the river, facing the terraced gardens",
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+  },
+  "portals": [
+    {
+      "id": "to_square",
+      "label": "Metaverse Square",
+      "href": "https://zlisto.github.io/hub_world/",
+      "spawn": "by_hanging_gardens",
+      "where": "A glowing pink doorway near where you arrive"
+    }
+  ]
+}
